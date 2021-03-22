@@ -1,0 +1,61 @@
+ body{
+	 background-image: url(../images/photo.png);
+	 background-repeat: no-repeat;
+	 background-size: 100% 700px;
+
+ }
+ .simple_form{
+           text-align:left;
+		   margin: 100px 400px;
+	 }
+  #registration{
+	  width:60%;
+	  background-color:#D37619;
+     }
+   #button{
+       width: 250px;
+	   padding:7px;
+	   border-radius:5px;
+	   outline:0px;
+   }
+   #course{
+
+	    outline:0px;
+	    width: 250px;
+	   border-radius:5px;
+
+   }
+
+   #ph{
+	   outline:0px;
+	    width: 80px;
+	   padding:7px;
+	   border-radius:5px;
+   }
+   #phone{
+	    width: 170px;
+	   padding:7px;
+	   border-radius:5px;
+	   outline:0px;
+   }
+   #but{
+	   color:white;
+	   font-size:18px;
+
+   }
+
+   #butt{
+	   width: 250px;
+	   padding:7px;
+	   border-radius:5px;
+	   outline:0px;
+	   background-color:#008000;
+	   border:2px solid #01010c;
+	   color: aliceblue;
+	   font-size:18px;
+   }
+
+
+
+
+

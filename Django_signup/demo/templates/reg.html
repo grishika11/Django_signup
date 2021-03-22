@@ -1,0 +1,35 @@
+{%extends 'navigation.html' %}
+{% load static %}
+{% block body%}
+   <head>
+      <title>REGISTRATION FORM</title>
+	</head>
+
+   <body>
+   
+
+   	 <form method="post">
+   	 	{% csrf_token %}
+       <div class="simple_form">
+	   <form id = "registration">
+	   <h2><b><u>REGISTRATION FORM</u></b></h2></form><br>
+	</form>
+	 <b> FIRST NAME:</b> <input type="text" name="fname" id="button"><br>
+	   <br>
+	 <b> LAST NAME:</b> &nbsp;&nbsp;<input type="text" name="lname" id="button"><br>
+	   <br>
+    <b> CONTACT:</b> &nbsp;&nbsp; &nbsp;&nbsp;<input type="number" name="contact" id="button"><br>
+	   <br>
+	 <b> E-MAIL:</b> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; <input type="text" name="email" id="button"><br>
+	   <br>
+	  <b> ADDRESS:</b>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<input type="text" name="address" id="button"><br>
+	   <br>
+
+<br>
+	   <input type="submit" value="SUBMIT" id="butt">
+
+	</select>
+	</form>
+   </div>
+   </body>
+{% endblock%}
