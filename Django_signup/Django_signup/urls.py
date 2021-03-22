@@ -20,5 +20,6 @@ import demo.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("",demo.views.Reg,name='reg'),
+    path("reg",demo.views.Reg,name='reg'),
+    path('',demo.views.Signup,name='signup'),
 ]
